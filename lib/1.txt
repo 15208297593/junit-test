@@ -1,0 +1,458 @@
+{
+	"_id" : "4cb8e1bb-4fb4-49c7-862f-23f581f77216",
+	"_class" : "la.xiaoxiao.manager.registration.entity.RegisterLogEntity",
+	"register" : {
+		"_id" : "d2776e46-407a-4cf2-8a9b-cc9ac966a402",
+		"sourceType" : "EVENT",
+		"sourceId" : "1d2b900d-be62-46d0-9a51-1f760cb4c155",
+		"texts" : [
+			{
+				"_id" : "95bc2123-883d-417c-ba27-a8e48a41941e",
+				"type" : "TEXT",
+				"rank" : 1,
+				"title" : "name",
+				"required" : true
+			},
+			{
+				"_id" : "b0eda43d-823b-4df2-a1f3-b9d8e55a305e",
+				"type" : "TEXT",
+				"rank" : 2,
+				"title" : "phoneNumber",
+				"required" : true
+			},
+			{
+				"_id" : "4d8e1159-5017-4d5b-b2b8-1cee715612be",
+				"type" : "TEXT",
+				"rank" : 5,
+				"title" : "studentId",
+				"required" : true
+			},
+			{
+				"_id" : "c9800f94-e0e5-4623-ade2-67495c55dcea",
+				"type" : "TEXT",
+				"rank" : 7,
+				"title" : "籍贯",
+				"required" : true
+			},
+			{
+				"_id" : "279ff08d-2b0c-4feb-ab82-b46e2649b95a",
+				"type" : "TEXT",
+				"rank" : 8,
+				"title" : "民族",
+				"required" : true
+			},
+			{
+				"_id" : "4e130d7f-34af-47f0-bf92-8efb25a32387",
+				"type" : "TEXTAREA",
+				"rank" : 9,
+				"title" : "专业",
+				"required" : true
+			},
+			{
+				"_id" : "382fd5da-feee-4170-96f4-a60cc170e3e8",
+				"type" : "TEXTAREA",
+				"rank" : 11,
+				"title" : "QQ",
+				"required" : true
+			},
+			{
+				"_id" : "ea65cd26-a045-49ea-b4db-43bbabf6cc2d",
+				"type" : "TEXTAREA",
+				"rank" : 16,
+				"title" : "曾任职务",
+				"required" : true
+			},
+			{
+				"_id" : "f8de3b34-ff15-487c-8d8c-63903645bad8",
+				"type" : "TEXTAREA",
+				"rank" : 17,
+				"title" : "获奖情况",
+				"required" : true
+			},
+			{
+				"_id" : "e1622202-92dd-4a91-816e-8e109719fd72",
+				"type" : "TEXTAREA",
+				"rank" : 18,
+				"title" : "请用一段话介绍自己，形式体裁不限。（要求：令人印象深刻，不超过150字）",
+				"required" : true
+			}
+		],
+		"dates" : [
+			{
+				"_id" : "28af17bd-ed6d-4207-a5a0-7728e4d71bfb",
+				"rank" : 10,
+				"title" : "生日",
+				"required" : true
+			}
+		],
+		"choices" : [
+			{
+				"_id" : "684edeab-5c27-4738-9415-140f44fa0805",
+				"type" : "SINGLETON",
+				"options" : [
+					{
+						"_id" : "29cf5eec-893a-4414-b889-14d2e8a10b37",
+						"name" : "男",
+						"rank" : 1
+					},
+					{
+						"_id" : "f332cba5-61bd-4b07-8685-1bb3ed07df45",
+						"name" : "女",
+						"rank" : 2
+					}
+				],
+				"rank" : 3,
+				"title" : "gender",
+				"required" : true
+			},
+			{
+				"_id" : "fdfa27b1-ff22-4159-b940-2bb65c221504",
+				"type" : "MULTIPLE",
+				"options" : [
+					{
+						"_id" : "0d341dc3-0f26-469d-a0f7-7716ee69f8b6",
+						"name" : "团委办公室",
+						"rank" : 1
+					},
+					{
+						"_id" : "f7f5012d-8aab-4ac8-b9ac-af45e700fe68",
+						"name" : "团委组织部",
+						"rank" : 2
+					},
+					{
+						"_id" : "3be3f4df-dbb6-412d-97b8-015b3f60037c",
+						"name" : "团委宣传部",
+						"rank" : 3
+					},
+					{
+						"_id" : "a88ecf6c-1862-4617-9cf4-b17133fa66a0",
+						"name" : "团委信息技术中心",
+						"rank" : 4
+					},
+					{
+						"_id" : "62e66168-e2a8-443a-ae27-8e0c4dd761bf",
+						"name" : "团委志愿者工作部",
+						"rank" : 5
+					},
+					{
+						"_id" : "155af65d-0a9f-4bae-8df1-bed6d780dd85",
+						"name" : "团委社会实践部",
+						"rank" : 6
+					},
+					{
+						"_id" : "0651044d-250a-4c1b-a5ab-846374216aff",
+						"name" : "学生会办公室",
+						"rank" : 7
+					},
+					{
+						"_id" : "6fb86e5d-9bd4-46c0-ae59-757cd46d6ebc",
+						"name" : "学生会纪检部",
+						"rank" : 8
+					},
+					{
+						"_id" : "94fb6145-c646-4ec9-aa84-6b807b1677c5",
+						"name" : "学生会学术部",
+						"rank" : 9
+					},
+					{
+						"_id" : "0a8a6d08-03c0-4311-8455-166273a1ad95",
+						"name" : "学生会职业发展部",
+						"rank" : 10
+					},
+					{
+						"_id" : "7bd736fb-1f6e-4ffb-afa4-06012be2add7",
+						"name" : "学生会文体部",
+						"rank" : 11
+					},
+					{
+						"_id" : "7217b28c-92a6-4c01-b8f3-d9182303cad1",
+						"name" : "学生会生活权益部",
+						"rank" : 12
+					},
+					{
+						"_id" : "ee9ca4c2-5945-4b55-a577-dfc65230d960",
+						"name" : "学生会女生部",
+						"rank" : 13
+					},
+					{
+						"_id" : "d1321076-c6ad-4355-930a-38cc3a780480",
+						"name" : "学生会外联部",
+						"rank" : 14
+					},
+					{
+						"_id" : "a30ce1ea-121c-48c7-a04b-50426c0b395d",
+						"name" : "学生会国际部",
+						"rank" : 15
+					}
+				],
+				"rank" : 12,
+				"title" : "第一意向部门",
+				"required" : true
+			},
+			{
+				"_id" : "412c4ea9-d2a8-4ae5-aa33-6a0b7f3a3c2d",
+				"type" : "SINGLETON",
+				"options" : [
+					{
+						"_id" : "7e3aaca9-a7cc-4ca8-a746-13ae6fda215a",
+						"name" : "团委办公室",
+						"rank" : 1
+					},
+					{
+						"_id" : "e400dda8-1fbe-4270-8463-7fe35ccfb26a",
+						"name" : "团委组织部",
+						"rank" : 2
+					},
+					{
+						"_id" : "ba49951f-1750-4bd2-b84f-34273ad04995",
+						"name" : "团委宣传部",
+						"rank" : 3
+					},
+					{
+						"_id" : "9ad4b90f-eabd-4d0a-8928-d12824b1248a",
+						"name" : "团委信息技术中心",
+						"rank" : 4
+					},
+					{
+						"_id" : "00999fcc-33a9-446a-887f-35a9e5a087e9",
+						"name" : "团委志愿者工作部",
+						"rank" : 5
+					},
+					{
+						"_id" : "321cf6bc-a9ae-44b6-8113-e2ac08d59aee",
+						"name" : "团委社会实践部",
+						"rank" : 6
+					},
+					{
+						"_id" : "90a343c7-3eea-4cc8-9b43-64826be1dd31",
+						"name" : "学生会办公室",
+						"rank" : 7
+					},
+					{
+						"_id" : "a6cf3973-1b64-4390-8d8c-5bdcc5aa5959",
+						"name" : "学生会纪检部",
+						"rank" : 8
+					},
+					{
+						"_id" : "4b6bd920-891d-4328-b7a2-221b6a3578cc",
+						"name" : "学生会学术部",
+						"rank" : 9
+					},
+					{
+						"_id" : "4b143a32-48ca-453e-b10c-edd580c0a76f",
+						"name" : "学生会职业发展部",
+						"rank" : 10
+					},
+					{
+						"_id" : "3c3d4fe7-ae29-47b0-b433-d74b704b8dcd",
+						"name" : "学生会文体部",
+						"rank" : 11
+					},
+					{
+						"_id" : "1d28c999-97b7-468d-bd69-d67629714629",
+						"name" : "学生会生活权益部",
+						"rank" : 12
+					},
+					{
+						"_id" : "e0806ed5-7c5a-46c3-b6a1-507570f68103",
+						"name" : "学生会女生部",
+						"rank" : 13
+					},
+					{
+						"_id" : "852a77ab-3b0c-4243-adcb-7f6a20b3d6f4",
+						"name" : "学生会外联部",
+						"rank" : 14
+					},
+					{
+						"_id" : "a203367d-fc5d-4955-8ed9-579e261abd53",
+						"name" : "学生会国际部",
+						"rank" : 15
+					}
+				],
+				"rank" : 13,
+				"title" : "第二意向部门",
+				"required" : true
+			},
+			{
+				"_id" : "b0d27ec2-176b-4f77-b6b6-a3283947f487",
+				"type" : "SINGLETON",
+				"options" : [
+					{
+						"_id" : "5b2cf251-9d97-4ea7-b34c-45f0e9622712",
+						"name" : "团委办公室",
+						"rank" : 1
+					},
+					{
+						"_id" : "d6558aa7-c95e-4dc4-a5c3-57b83de4a77a",
+						"name" : "团委组织部",
+						"rank" : 2
+					},
+					{
+						"_id" : "8814e076-9c7b-4c75-9d58-376b958f3ebe",
+						"name" : "团委宣传部",
+						"rank" : 3
+					},
+					{
+						"_id" : "5f25f43f-b031-4165-8bda-e2e2b5b7f9b7",
+						"name" : "团委信息技术中心",
+						"rank" : 4
+					},
+					{
+						"_id" : "94bbbd42-7ceb-43fb-ad0f-13c66d388dec",
+						"name" : "团委志愿者工作部",
+						"rank" : 5
+					},
+					{
+						"_id" : "ed51c092-9388-4eb3-9c17-d3bc48e6ae0c",
+						"name" : "团委社会实践部",
+						"rank" : 6
+					},
+					{
+						"_id" : "a76cc7a0-b3ea-4265-a6aa-76102d8a18f7",
+						"name" : "学生会办公室",
+						"rank" : 7
+					},
+					{
+						"_id" : "222cd6bb-1269-464d-9d77-6a2e2deb16b5",
+						"name" : "学生会纪检部",
+						"rank" : 8
+					},
+					{
+						"_id" : "41be0f97-e771-43db-9a8c-a58216c5aa2b",
+						"name" : "学生会学术部",
+						"rank" : 9
+					},
+					{
+						"_id" : "e42722d5-1fd7-4d29-9a79-def8a66062ba",
+						"name" : "学生会职业发展部",
+						"rank" : 10
+					},
+					{
+						"_id" : "17f74d9e-06fd-4c50-86a3-cdef1e2d0802",
+						"name" : "学生会文体部",
+						"rank" : 11
+					},
+					{
+						"_id" : "66a9adac-14ba-4058-826d-25e782267e0e",
+						"name" : "学生会生活权益部",
+						"rank" : 12
+					},
+					{
+						"_id" : "52c46a48-df75-4d48-9931-0c64f4d903d3",
+						"name" : "学生会女生部",
+						"rank" : 13
+					},
+					{
+						"_id" : "82d0b964-f719-488f-b6d1-748509e2c3d1",
+						"name" : "学生会外联部",
+						"rank" : 14
+					},
+					{
+						"_id" : "4bbeb1c9-11b8-40fa-ae72-74a0dfb06983",
+						"name" : "学生会国际部",
+						"rank" : 15
+					}
+				],
+				"rank" : 14,
+				"title" : "第三意向部门",
+				"required" : true
+			},
+			{
+				"_id" : "6046cb2e-3148-4c6a-9359-2ea5ad997519",
+				"type" : "SINGLETON",
+				"options" : [
+					{
+						"_id" : "ecbfd7d9-4edc-4551-a234-c8f5d0dc11eb",
+						"name" : "是",
+						"rank" : 1
+					},
+					{
+						"_id" : "909769cd-6a9d-4f79-a7bd-e7421ff6e732",
+						"name" : "否",
+						"rank" : 2
+					}
+				],
+				"rank" : 15,
+				"title" : "是否服从调剂",
+				"required" : true
+			}
+		],
+		"images" : [ ]
+	},
+	"result" : {
+		"_id" : "b60523a7-ab6a-4e9a-8b2f-28f4940108c7",
+		"sourceId" : "1d2b900d-be62-46d0-9a51-1f760cb4c155",
+		"sourceType" : "EVENT",
+		"userId" : "dd528374-835d-4c8d-b670-90c8cfba1666",
+		"userTexts" : [
+			{
+				"textId" : "95bc2123-883d-417c-ba27-a8e48a41941e",
+				"value" : "孟杰"
+			},
+			{
+				"textId" : "b0eda43d-823b-4df2-a1f3-b9d8e55a305e",
+				"value" : "18269820615"
+			},
+			{
+				"textId" : "4d8e1159-5017-4d5b-b2b8-1cee715612be",
+				"value" : "41617038"
+			},
+			{
+				"textId" : "c9800f94-e0e5-4623-ade2-67495c55dcea",
+				"value" : "安徽六安"
+			},
+			{
+				"textId" : "279ff08d-2b0c-4feb-ab82-b46e2649b95a",
+				"value" : "汉族"
+			},
+			{
+				"textId" : "4e130d7f-34af-47f0-bf92-8efb25a32387",
+				"value" : "旅游管理"
+			},
+			{
+				"textId" : "382fd5da-feee-4170-96f4-a60cc170e3e8",
+				"value" : "3501067524"
+			},
+			{
+				"textId" : "ea65cd26-a045-49ea-b4db-43bbabf6cc2d",
+				"value" : "语文课代表"
+			},
+			{
+				"textId" : "f8de3b34-ff15-487c-8d8c-63903645bad8",
+				"value" : "年年都是三好学生，校优秀团员\n获得校化学，地理，英语等竞赛二等奖"
+			},
+			{
+				"textId" : "e1622202-92dd-4a91-816e-8e109719fd72",
+				"value" : "我是一个勤奋努力，积极向上，好学，愿意吃苦，乐于助人的人。\n平时喜欢和别人嘻嘻哈哈，认真起来就非常严肃\n我处理事情不分关系亲疏，看事不看人。"
+			}
+		],
+		"userDates" : [
+			{
+				"value" : ISODate("1997-11-21T16:00:00Z"),
+				"dateId" : "28af17bd-ed6d-4207-a5a0-7728e4d71bfb"
+			}
+		],
+		"userImages" : [ ],
+		"userOptions" : [
+			{
+				"optionId" : "f332cba5-61bd-4b07-8685-1bb3ed07df45" //性别
+			},
+			{
+				"optionId" : "6fb86e5d-9bd4-46c0-ae59-757cd46d6ebc" //第一意向部门
+			},
+			{
+				"optionId" : "321cf6bc-a9ae-44b6-8113-e2ac08d59aee" //第二意向部门
+			},
+			{
+				"optionId" : "94bbbd42-7ceb-43fb-ad0f-13c66d388dec" //第二意向部门
+			},
+			{
+				"optionId" : "ecbfd7d9-4edc-4551-a234-c8f5d0dc11eb" //是否服从调剂
+			}
+		],
+		"createDate" : ISODate("2016-09-14T10:45:00.723Z")
+	},
+	"userId" : "dd528374-835d-4c8d-b670-90c8cfba1666",
+	"sourceId" : "1d2b900d-be62-46d0-9a51-1f760cb4c155",
+	"sourceType" : "EVENT"
+}
